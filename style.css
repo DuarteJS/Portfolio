@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Teko";
+    src: url(Font/Teko/Teko-VariableFont_wght.ttf);
+}
+:root{
+    --branco: #D1D1D1;
+    --roxo: #5A1DA9;
+}
+header {
+    
+  
+    
+    padding-left: 25px;
+    position: fixed;
+    margin: 20 auto;
+    
+   
+    
+    
+}
+
+header img {
+    width: 120px;
+    margin-bottom: 35px;
+
+}
+/* .menu img:hover{
+    /* color: var(--roxo); */
+
+
+    
+/* } */
+.menu{
+    
+    writing-mode: vertical-rl; 
+    vertical-align: 90;
+    display: flex;
+}
+.menu a{
+    font-family: 'Teko';
+    color: #D1D1D1;
+    display: flex;
+    margin: 20px auto;
+    font-size: 40px;
+    display: flex;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 45px;
+}
+.menu a:hover{
+    color: var(--roxo);
+    font-size: 55px;
+    transition: text-decoration 500ms ease;
+    
+}
+.container-grid{
+    width: 80vw;
+    max-width: 1420px;
+    margin: 0 auto;
+    border: var(--roxo);
+    border-width: 0px 0px 0px 2px;
+    border-style: dashed;
+    padding: 50px;
+    margin-left: 180px;
+}
+#p  {
+    height: 500px;
+  margin-left: 150px;
+}
+h1{
+    font-family: 'Teko';
+    color: #D1D1D1;
+    font-size: 65px;
+  display: flex;
+  text-align: center;
+  margin: 3px;
+
+  animation-duration: 1.5s;
+  animation-delay: var(--roxo);
+  animation-fill-mode: forwards;
+  animation-timing-function: var(--roxo);
+}
+#eu{
+  
+}
+h3{
+    color: var(--branco);
+    font-family: 'Montserrat';
+    display: flex;
+    margin: 3px;
+   font-size: 30px;
+  
+
+}
+ h2{
+    font-family: 'Teko';
+    color: #D1D1D1;
+    display: flex;
+    margin: 20px auto;
+    font-size: 50px;
+ 
+ 
+
+}
+
+body{
+   background-color: black; 
+   color: #D1D1D1;
+
+}
+
+
+p{
+    font-family: 'Montserrat';
+}
+.card{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  
+   
+    
+  
+}
+.acrescentacao{
+    width: 200px;
+    /* filter: blur(4px); */
+    background-color: #141414;
+    margin: 20px;
+    border-radius: 15px;
+    border: 2px solid
+       var(--roxo);
+    
+   
+
+}
+
+.acrescentacao p{
+    font-family: 'Teko';
+    font-size: 30px;
+    margin: 0px;
+    height: 55px;
+    padding-left: 20px;
+
+}
+#t{
+    margin: 0px;
+    color: #5A1DA9;
+}
+ #s {
+    margin: 0 0 10px 30px;
+    font-size: 45px;
+
+ }
+ #d{
+    margin: 0 0 10px 55px;
+    font-size: 50px;
+ }
+ .quadradinhos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+.lin img{
+    width: 100px;
+}
+.lin{
+    width: 300px;
+    background-color: #141414;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    border: 2px solid
+         var(--roxo);
+}
+.detalhes p{
+    font-size: 25px;
+    margin-left: 30px;
+
+}
+h4{
+    font-family: 'Teko';
+
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+
+}
