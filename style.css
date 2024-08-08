@@ -2,56 +2,68 @@
     font-family: 'Montserrat';
     src: url(Font/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: "Teko";
     src: url(Font/Teko/Teko-VariableFont_wght.ttf);
 }
-:root{
+
+:root {
     --branco: #D1D1D1;
     --roxo: #5A1DA9;
 }
+
 header {
-    
-  
-    
+
+
+
     padding-left: 25px;
     position: fixed;
     margin: 20 auto;
-    
-   
-    
-    
+
+
+
+
 }
 
-header img {
+#biel {
+    height: 110px;
     width: 120px;
     margin-bottom: 35px;
 
+
 }
-.menu{
-    
-    writing-mode: vertical-rl; 
+
+.menu {
+
+    writing-mode: vertical-rl;
     vertical-align: 90;
     display: flex;
+
 }
-.menu a{
+
+.menu a {
     font-family: 'Teko';
     color: #D1D1D1;
     display: flex;
     margin: 20px auto;
     font-size: 40px;
     display: flex;
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 45px;
 }
-.menu a:hover{
+
+
+.menu a:hover {
     color: var(--roxo);
     font-size: 55px;
     transition: text-decoration 500ms ease;
-    
+
 }
-.container-grid{
+
+.container-grid {
+
     width: 80vw;
     max-width: 1420px;
     margin: 0 auto;
@@ -61,86 +73,91 @@ header img {
     padding: 50px;
     margin-left: 180px;
 }
-#p  {
+
+#p {
     height: 500px;
-  margin-left: 150px;
+    margin-left: 150px;
 }
-h1{
+
+h1 {
     font-family: 'Teko';
     color: #D1D1D1;
     font-size: 65px;
-  display: flex;
-  text-align: center;
-  margin: 3px;
+    display: flex;
+    text-align: center;
+    margin: 3px;
 
-  animation-duration: 1.5s;
-  animation-delay: var(--roxo);
-  animation-fill-mode: forwards;
-  animation-timing-function: var(--roxo);
+    animation-duration: 1.5s;
+    animation-delay: var(--roxo);
+    animation-fill-mode: forwards;
+    animation-timing-function: var(--roxo);
 }
-#eu{
-  
-}
-h3{
+
+#eu {}
+
+h3 {
     color: var(--branco);
     font-family: 'Montserrat';
     display: flex;
     margin: 3px;
-   font-size: 30px;
-  
+    font-size: 30px;
+
 
 }
- h2{
+
+h2 {
     font-family: 'Teko';
     color: #D1D1D1;
     display: flex;
     margin: 20px auto;
     font-size: 50px;
- 
- 
+
+
 
 }
 
-body{
-   background-color: black; 
-   color: #D1D1D1;
+body {
+    background-color: black;
+    color: #D1D1D1;
 
 }
 
 
-p{
+p {
     font-family: 'Montserrat';
 }
-.card{
+
+.card {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     margin: 0 auto;
-  
-   
-    
-  
+
+
+
+
 }
-.acrescentacao{
+
+.acrescentacao {
     width: 200px;
     /* filter: blur(4px); */
     background-color: #141414;
     margin: 20px;
     border-radius: 15px;
-    border: 2px solid
-       var(--roxo);
-    
-   
+    border: 2px solid var(--roxo);
+
+
 
 }
- #a{
-   
-        margin: 0 0 10px 49px;
-        font-size: 50px;
-     
+
+#a {
+
+    margin: 0 0 10px 49px;
+    font-size: 50px;
+
 }
 
-.acrescentacao p{
+.acrescentacao p {
     font-family: 'Teko';
     font-size: 30px;
     margin: 0px;
@@ -148,67 +165,77 @@ p{
     padding-left: 20px;
 
 }
-#t{
+
+#t {
     margin: 0px;
     color: #5A1DA9;
 }
- #s {
+
+#s {
     margin: 0 0 10px 30px;
     font-size: 45px;
 
- }
- #d{
+}
+
+#d {
     margin: 0 0 10px 55px;
     font-size: 50px;
- }
- .quadradinhos{
+}
+
+.quadradinhos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
- }
-.lin img{
+}
+
+.lin img {
     width: 100px;
 }
-.lin{
+
+.lin {
     width: 300px;
     background-color: #141414;
     margin: 20px;
     border-radius: 15px;
     display: flex;
-    border: 2px solid
-         var(--roxo);
+    border: 2px solid var(--roxo);
 }
-.detalhes p{
+
+.detalhes p {
     font-size: 25px;
     margin-left: 30px;
 
 }
 
-h4{
+h4 {
     font-family: 'Teko';
-    
+    font-size: 25px;
+
 
 }
-.projetos{
-    border: 2px solid
-      var(--roxo);
-      height: 500px;
-      border-radius: 10px;
-      display: flex;
-      flex-direction: column;
+
+.projetos {
+    border: 2px solid var(--roxo);
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 
 }
-#insugame{
+
+#insugame {
     width: 500px;
     height: 350px;
     border-radius: 5px;
 }
-h5{
+
+h5 {
     font-family: 'Teko';
+    font-size: 26px;
 }
 
-footer{
+footer {
     height: 100px;
     width: 100%;
     display: flex;
@@ -216,4 +243,144 @@ footer{
     justify-content: center;
     align-content: flex-end;
 
+}
+#icone-barras {
+    display: none;
+    fill: #D1D1D1;
+}
+
+nav.menu-fechado {
+    display: none;
+}
+header button{
+    display: none;
+}
+
+
+@media screen and (max-width: 1400px) {
+    #p {
+
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #p {
+        height: auto;
+        width: 800px;
+        margin-left: -50px;
+    }
+
+    .card {
+        flex-wrap: wrap;
+    }
+
+    .container-grid {
+        width: 92vw;
+        margin: 0;
+        border-width: 0px 0px 0px 0px;
+      
+    }
+
+    .menu {
+
+        writing-mode: horizontal-tb;
+        background-color: rgb(60, 60, 60);
+        flex-direction: column;
+        height: 500px;
+        width: 100vw;
+        
+        position: absolute;
+        left: 0px;
+        top: 70px;
+        z-index: 1;
+        border-radius: 0;
+
+
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+    nav.menu{
+        display: none;
+    }
+    header button {
+        width: 50px;
+
+        display: unset;
+
+        background: none;
+        border: none;
+
+    }
+   
+  }
+
+  @media screen and (max-width: 660px){
+    .container-grid{
+        width: 91vw;
+    }
+  }
+
+  @media screen and (max-width: 620px){
+    .container-grid{
+        width: 90vw;
+    }
+  }
+  @media screen and (max-width: 600px){
+    #p{
+        margin-left: -175px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .container-grid{
+        width: 87vw;
+        padding: 30px;
+    }
+    h1{font-size: 45px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .detalhes p{
+        margin-left: 0px;
+    }
+    #insugame {
+        width: 100%;
+        height: 255px;
+        
+     }
+     #p{
+        margin-left: -200px;
+     }
+     h5{
+        font-size: 20px;
+     }
+
+  }
+  @media screen and (max-width: 430px){
+    #p{
+        width: 550px;
+        margin-left: -90px;
+    }
+  }
+  @media screen and (max-width: 400px){
+  #p{
+    width: 500px;
+    margin-left: -80px;
+}
+h5{
+    font-size: 15px;
+ }
+}
+@media screen and (max-width: 380px){
+    #p{
+        width: 450px;
+        margin-left: -70px;
+    }
 }
